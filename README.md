@@ -23,12 +23,19 @@ print(f"Ciao {nome}!")
 ## 2. Python Base (90 min)
 
 ### 2.1 Sintassi Fondamentale (25 min)
+- Notiamo subito due cose: ogni riga ospita una singola istruzione e le istruzioni non terminano con il "punto e virgola"!
 ```python
 # Variabili e tipi di dati
 eta = 25                  # int
 prezzo = 19.99           # float
 nome = "Mario"           # str
 is_studente = True       # bool
+
+```
+- Python è un linguaggio a tipizzazione dinamica (non si dichiara un tipo per la variabile a compile-time ed è possibile che il suo tipo cambi a run-time)
+- Il tipo determina le operazioni che si possono svolgere sulle variabili
+
+```python
 
 # Operatori
 somma = 5 + 3            # 8
