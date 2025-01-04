@@ -200,12 +200,17 @@ if "nome" in studente:  # verifica se esiste la chiave
 ### 3.2 Gestione File (35 min)
 ```python
 # Scrittura su file
-file = open("dati.txt", "w")
+file = open("dati.txt", "w")    # sovrascrive il precedente contenuto, se presente
 file.write("Prima riga\n")
 file.write("Seconda riga\n")
 file.close()
 
-# Lettura da file
+# Aggiunta dati su file
+file = open("dati.txt", "a")
+file.write("Altra riga\n")
+file.close()
+
+# Lettura di tutto il contenuto da file
 file = open("dati.txt", "r")
 contenuto = file.read()
 file.close()
@@ -213,8 +218,21 @@ file.close()
 # Lettura riga per riga
 file = open("dati.txt", "r")
 for riga in file:
-    print(riga.strip())
+    print(riga.strip())    # strip serve solo a rimuovere eventuali spazi superflui
 file.close()
+
+# Lettura riga per riga alternativa
+file = open("dati.txt", "r")
+riga = file.readline()
+while riga != "":        # continua se non ha letto riga vuota
+    print(riga)
+    riga = file.readline()   
+file.close()
+
+```
+- Attenzione: le operazioni I/O verso la memoria di massa vanno però sempre protette:
+  
+```python
 
 # Gestione eccezioni base
 try:
