@@ -98,6 +98,11 @@ for numero in numeri:    # numero assume ogni valore della lista
 for i in range(len(numeri)):  # i assume i valori da 0 a len(numeri)-1
     print(f"Posizione {i}: {numeri[i]}")
 
+```
+- Ricorda la differenza principale tra lista e stringa: la seconda non si può modificare!
+  
+```python
+
 # Stringhe
 nome = "Python"
 lunghezza = len(nome)    # 6
