@@ -159,6 +159,7 @@ def test_scope():
 test_scope()
 print(f"X globale: {x}")     # stampa 10
 ```
+A questo punto dovresti essere in grado di realizzare un semplice programmino come una calcolatrice con menù di scelta delle operazioni da svolgere per l'utente!
 
 ## 3. Python Avanzato (105 min)
 
