@@ -32,7 +32,7 @@ nome = "Mario"           # str
 is_studente = True       # bool
 
 ```
-- Python è un linguaggio a tipizzazione dinamica (non si dichiara un tipo per la variabile a compile-time ed è possibile che il suo tipo cambi a run-time)
+- Python è un linguaggio a tipizzazione dinamica (non si dichiara un tipo per la variabile a priori ed è possibile che il suo tipo cambi a run-time)
 - Il tipo determina le operazioni che si possono svolgere sulle variabili
 
 ```python
@@ -42,11 +42,17 @@ somma = 5 + 3            # 8
 differenza = 10 - 4      # 6
 prodotto = 3 * 2         # 6
 divisione = 15 / 3       # 5.0
+div_intera = 8 // 3      # 2
 modulo = 17 % 5          # 2
 
+```
+- Di seguito si introducono le strutture di selezione e iterazione... Occhio a come si indentano i blocchi da inserire nei rami di vero o falso!
+
+```python
+
 # Strutture di controllo
-if eta >= 18:
-    print("Maggiorenne")
+if eta >= 18:            # più condizioni con operatori and, or, not
+    print("Maggiorenne") # prova a togliere il tab ed eseguire per vedere l'errore sintattico!
 else:
     print("Minorenne")
 
