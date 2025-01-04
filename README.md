@@ -243,7 +243,15 @@ except FileNotFoundError:
     print("File non trovato!")
 ```
 
-### 3.3 Progetto Pratico (30 min)
+### 3.3 Funzioni per il progetto finale (30 min)
+
+Si vuole realizzare un programmino in grado di gestire la rubrica telefonica. L'utente deve avere a disposizione un menù con le seguenti opzioni:
+- caricamento dei contatti (per acquisire i contatti dal file di salvataggio contatti.txt);
+- salvataggio dei contatti (per scrivere su memoria, file contatti.txt, la lista dei contatti, dopo eventuali operazioni di modifica operate su questi);
+- vedi numero (che visualizza il numero di telefono di un nome specificato dall'utente, se presente in rubrica);
+- aggiungi contatto (per salvare una nuova coppia nome-numero in rubrica)
+- esci (per terminare con l'esecuzione del programmino).
+
 ```python
 # Gestore contatti semplice
 def carica_contatti(filename):
@@ -278,7 +286,7 @@ print(cerca_contatto(contatti, "Mario"))
 salva_contatti("contatti.txt", contatti)
 ```
 
-## 4. Wrap-up e Q&A (30 min)
+## 4. Bonus (30 min)
 
 ### Mini-esercizio di verifica
 ```python
@@ -309,9 +317,3 @@ numeri = leggi_numeri("input.txt")
 media, somma = calcola_statistiche(numeri)
 salva_risultati("output.txt", media, somma)
 ```
-
-### Note per il Docente
-- Ogni esempio dovrebbe essere testato live
-- Incoraggiare gli studenti a modificare il codice
-- Proporre piccole sfide durante la lezione
-- Mantenere il codice visibile durante le spiegazioni
