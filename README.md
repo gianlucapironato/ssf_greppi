@@ -1,4 +1,9 @@
-# Corso Accelerato Python (4 ore)
+# Corso accelerato Python (4 ore)
+
+## I motivi della popolarità
+- Linguaggio ad alto livello (vicino a come comunica l'umano) e con sintassi molto semplice
+- Linguaggio di scripting (piccoli programmi con l'obiettivo di automatizzare task o procedure altrimenti manuali) che però supporta più paradigmi di programmazione (e quindi ben si presta anche alla realizzazione di programmi veri e propri)
+- È multipiattaforma e gode di una vasta disponibilità di librerie (permettendo così la realizzazione di programmi estesi con diverse funzionalità implementate da terzi)
 
 ## 1. Ambiente di Sviluppo - REPLIT (15 min)
 
